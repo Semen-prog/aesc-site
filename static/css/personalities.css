@@ -1,0 +1,21 @@
+.wrap {
+    display: flex;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    justify-content: space-between;
+}
+
+.element {
+    width: 40vw;
+    margin-left: 0;
+}
+
+@media (max-width: 850px) {
+    .wrap {
+        display: block;
+    }
+    
+    .element {
+        width: 80vw;
+    }
+}
