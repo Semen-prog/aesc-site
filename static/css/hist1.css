@@ -6,9 +6,32 @@
 .bio img {
     border-radius: 50%;
     max-height: 30vh;
-    max-width: 30vh;
+    max-width: 30vw;
+    aspect-ratio: 1;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .bio-text {
     width: 63vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 3vh;
+}
+
+@media (max-width: 850px) {
+
+.bio {
+    display: block;
+}
+
+.bio img {
+    display: block;
+    margin: auto;
+}
+
+.bio-text {
+    margin: auto;
+}
+
 }
