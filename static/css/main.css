@@ -6,15 +6,14 @@ body {
 .header {
     height: 9vh;
     line-height: 9vh;
-    background-color: #36BBCE;
+    background-color: #96B4EB;
 }
 
-.logo img {
+.hli img {
     width: 5vh;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    margin-left: 1vw;
     margin-right: 1vw;
 }
 
@@ -23,6 +22,7 @@ body {
     vertical-align: middle;
     line-height: normal;
     font-size: min(1.8vh, 2vw);
+    margin-left: 1vw;
 }
 
 .title {
@@ -30,8 +30,13 @@ body {
     border-radius: 5px;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    padding-left: 2vw;
+    padding-left: 1vw;
     padding-right: 2vw;
+}
+
+.title a {
+    color: black;
+    text-decoration: none;
 }
 
 .nav {
@@ -90,3 +95,34 @@ button:hover {
     text-align: center;
     line-height: 9vh;
 }
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.full-image {
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+}
+

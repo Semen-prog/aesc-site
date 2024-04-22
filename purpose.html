@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="static/css/hist1.css"/>
 </head>
 <body>
+    <div class="overlay" id="overlay">
+        <img src="none" alt="Full Image" class="full-image" id="fullImage">
+        <span class="close" id="closeBtn">&times;</span>
+    </div>
     <header class="header">
-        <span class="logo hli"><a href="main.html">
-            <img src="static/img/KIS.svg"/>
-        </a></span>
         <span class="title hli">
-            <b>Спортивное программирование или жизнь</b>
+            <img src="static/img/KIS.svg" class="disp"/>
+            <b><a href="main.html">Спортивное программирование или жизнь</a></b>
         </span>
     </header>
     <nav class="nav">
@@ -26,5 +28,6 @@
     <footer class="footer">
         <span class="hli">© Copyright 2023-24 AESC MSU</span>
     </footer>
+    <script type="text/javascript" src="static/js/index.js"></script>
 </body>
 </html>
