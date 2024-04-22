@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 .header {
@@ -21,7 +22,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-    font-size: min(1.8vh, 2vw);
+    font-size: min(2vh, 2.5vw);
     margin-left: 1vw;
 }
 
